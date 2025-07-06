@@ -1,0 +1,15 @@
+#♣ tahmin nedir ?
+# ♣ tahmin, geçmiş verilerden yola çıkarak gelecekteki olayları veya değerleri öngörme işlemidir.
+# ♣ Tahmin, istatistiksel ve matematiksel modeller kullanılarak yapılır.
+# ♣ Tahmin, birçok alanda kullanılır, örneğin finans, ekonomi, hava durumu, sağlık ve spor gibi.
+# ♣ Tahmin, geçmiş verilerin analizi ve modelleme ile yapılır.
+
+#örneğin, bir şirketin gelecekteki satışlarını tahmin etmek için geçmiş satış verileri kullanılır.
+
+# predictions ile forecast arasındaki fark nedir ?
+# ♣ Predictions, geçmiş verilerden yola çıkarak gelecekteki olayları veya değerleri öngörme işlemidir.
+# ♣ Forecast, belirli bir zaman dilimi için gelecekteki olayları veya değerleri öngörme işlemidir.
+# ♣ Forecast, genellikle zaman serisi verileri kullanılarak yapılır.
+
+
+#predictions ve forecast arasındaki fark, predictions'ın genel bir tahmin yaparken, forecast'ın belirli bir zaman dilimi için
