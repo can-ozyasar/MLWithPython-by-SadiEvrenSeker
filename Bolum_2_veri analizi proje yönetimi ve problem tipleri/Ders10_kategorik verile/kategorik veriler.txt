@@ -1,0 +1,6 @@
+örnek olarak bir tabloda çeşitli ülkeler için tabloda ülke verisi de olsun bu verileri etiketlemek için 1 tr 2 abd  3fr olarak kulanılabilir 
+
+
+ama bu durumda fr > abd   , tr+abd=fr gibi saçma ilişkiler olabilir  bunun önüne geçemk için kadın ,erkek ayrımında olduğu gibi 0 ve 1 ler kullanılırsa daha sağlıklı olur
+
+

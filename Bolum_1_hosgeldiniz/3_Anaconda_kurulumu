@@ -1,0 +1,33 @@
+https://www.anaconda.com/download/success   web sitesinden anaconda mac windows veya linux a uygun olarak anaconda navigatörü indiriyoruz .
+
+Windows'a Anaconda Kurulumu (Kısa Versiyon)
+Anaconda, veri bilimi ve makine öğrenimi için vazgeçilmez bir platformdur. İşte Windows'a hızlıca nasıl kuracağınız:
+
+1. Kurulum Dosyasını İndirin
+Anaconda İndirme Sayfasına Gidin: www.anaconda.com/products/distribution
+
+Windows bölümünden 64-Bit Graphical Installer'ı (Grafiksel Yükleyici) indirin.
+
+2. Kurulumu Başlatın
+İndirilen .exe dosyasına çift tıklayın.
+
+3. Sihirbaz Adımlarını Takip Edin
+Hoş Geldiniz ve Lisans Anlaşması ekranlarında Next > (İleri) ve I Agree (Kabul Ediyorum) düğmelerine tıklayın.
+
+Kurulum Tipi: Just Me (Sadece Ben) seçeneğini seçin ve Next > tıklayın.
+
+Kurulum Konumu: Varsayılan konumu bırakın ve Next > tıklayın.
+
+Gelişmiş Seçenekler:
+
+"Add Anaconda3 to my PATH..." seçeneğini işaretlemeyin.
+
+"Register Anaconda3 as my default Python 3.x" seçeneğini işaretli bırakın.
+
+Install (Kur) düğmesine tıklayın.
+
+4. Kurulumun Bitmesini Bekleyin
+Kurulum tamamlandığında Next > ve ardından Finish (Bitir) düğmelerine tıklayarak sihirbazı kapatın.
+
+5. Kurulumu Doğrulayın
+Windows Başlat menüsünde "Anaconda Navigator" yazın ve uygulamayı çalıştırın.
