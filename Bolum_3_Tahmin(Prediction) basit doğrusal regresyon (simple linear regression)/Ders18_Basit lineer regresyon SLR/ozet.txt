@@ -1,0 +1,14 @@
+
+#basit doğrusal regresyon nedir ?
+# Basit doğrusal regresyon, bağımlı ve bağımsız değişkenler arasındaki doğrusal ilişkiyi modellemek için kullanılan bir istatistiksel tekniktir.
+# Bu model, bağımsız değişkenin (girdi) bağımlı değişkenin (çıktı) değerini tahmin etmek için bir doğrusal denklem kullanır.
+# Basit doğrusal regresyon, genellikle şu şekilde ifade edilir:    y  = ax + b 
+# Burada: a, regresyon katsayısıdır (eğim); 
+
+x, bağımsız değişkendir;
+b, y-kesişim terimidir (y eksenini kestiği nokta); 
+y, bağımlı değişkendir.x e bağımlıdır 
+
+
+# basit lineer regresyon .png de  verildiği gibi 
+verilen veri tabllosunda bulunan noktaların çizeceğimiz doğruya uzaklıkları toplamı  minumum yakınlıkta olacak şekilde bir doğru çizmeye çalışıyoruz 
