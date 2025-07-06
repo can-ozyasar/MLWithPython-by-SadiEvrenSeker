@@ -47,4 +47,27 @@ from sklearn.linear_model import LinearRegression
 lr = LinearRegression()
 
 
-lr.fit(X_train,Y_train) #modelimizi eğitiyoruz xtrainden y traine tahmine edecek 
+lr.fit(X_train,Y_train)#modelimizi eğitiyoruz xtrainden y traine tahmine edecek 
+#bakacak  a ayda saış şuymuş b ayda satış şuymuş bunlar arasındaki ilişkiye bakacak ve bir model oluşturacak
+
+
+
+#daha sonra bu modelimizi test etmek için x_test i kullanacağız
+#ve bu modelimiz ile y_test i tahmin edeceğiz   c ayda sence kaç satış olur
+
+tahmin= lr.predict(X_test)  #xtest den y_test i tahmin edeceğiz
+# xtrainden y traini öğrendi  x testten de kendi tahminlerini çıkardı  y test de gerçek değerler bunlarla modelin doğruluğunu konuşabiliriz .
+
+#daha öncesinde standalaştırma işlemi yapmalıyız 
+
+
+# eğer yapmazsak nasıl olur bakalım 
+
+
+
+
+
+
+
+
+
