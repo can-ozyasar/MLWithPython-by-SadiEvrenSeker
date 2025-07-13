@@ -1,0 +1,2 @@
+bu derste  bu bölümde işlenecek olan  çoklu değişkenlerdeki problemler ve çözümleri ,kukla değişkeni dummy variable  kukla tuzağı ,p-value, geri eleme backward elimination 
+ çoklu lineer regresyon  konularının işleneceği anlatılıyor 

@@ -1,0 +1,11 @@
+lineer regresyondan farklı olarak  birden fazla bağımsız parametre ile işlem yapılır .
+
+
+
+birden fazla değişken ile çalışmak için daha uygun bir yöntemdir 
+
+örnek olarak kişinin boyu = yaş kilo gelir beslenme gibi parametreler ile tahmin edilmek istenirse bu yöntem kullanılır 
+
+
+bu yöntem de 1. dereceden bir denklemdir ve doğru çizgi belirtir 
+basit lineer regresyon 2 boyutludur çoklu lineer regresyon ise 3+ boyutludur.

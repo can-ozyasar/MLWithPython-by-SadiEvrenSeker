@@ -1,0 +1,18 @@
+Zorunlu olmamakla birlikte bu aşamada p-value değerini ve bu değerin kullanımını araştırmanızda fayda olabilir. 
+
+İlk araştırma ödeviniz olarak internet üzerinde p-value değerini araştırınız. 
+
+Elbette bu araştırma konusu üzerinde kısa bir ders hazırlayarak değerin önemini ve bizim çalışmalarımız ile ilgilisini anlattmaya çalışacağız. Ancak bir makine öğrenmesi uzmanı ve veri bilimcisi olarak internet üzerinde kendi kaynaklarınızı bulmaya başlamanızda fayda var. 
+
+Çok kullandığımız ve size fayda sağlayabilecek bazı siteleri aşağıda yayınlıyorum. 
+
+Wikipedia
+Kaggle
+KDNuggets
+Quora
+StackOverflow
+Ayrıca çok sayıda üniversitenin bu konularla ilgili çevrim içi kaynağı bulunmaktadır. Aşağıda bazı örnekler bulunmaktadır:
+
+https://onlinecourses.science.psu.edu/stat501/
+https://online.stanford.edu/course/probability-and-statistics-self-paced
+İlk araştırma ödevinizde başarılar ve bir sonraki derse p-value üzerinde konuşmak üzere, başarılar

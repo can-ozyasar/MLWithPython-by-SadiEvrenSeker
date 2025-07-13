@@ -1,0 +1,54 @@
+İstatistikte, p değeri, bir istatistiksel modele bağlı olarak gözlemlenen örneklem sonuçlarının (bir test istatistiği) ne kadar aşırı olduğunu ölçmek için kullanılan bir fonksiyondur.
+
+p-değeri (p-value), istatistikte bir hipotez testinde kullanılan, gözlemlenen verinin sıfır hipotezi (H₀) altında ne kadar "olağanüstü" olduğunu ölçen bir değerdir. Başka bir deyişle:
+
+🔹 Basit Tanım:
+p-değeri, sıfır hipotezi doğruysa, elimizdeki verinin en az o kadar uç (aşırı) bir sonuç üretme olasılığıdır.
+
+🔹 Teknik Tanım (Hipotez Testi Bağlamında):
+Diyelim ki:
+
+H₀: Sıfır hipotezi (örneğin: "ilaç etkisizdir")
+
+H₁: Alternatif hipotez (örneğin: "ilaç etkilidir")
+
+Bir test istatistiği (t, z, χ² vs.) hesaplanır. Bu istatistiğin dağılımı, H₀ varsayımı altında bilinir.
+
+p-değeri = H₀ doğru kabul edildiğinde, test istatistiğinin gözlemlenen değerden daha uç bir değere sahip olma olasılığıdır.
+
+🔹 Kritik Karar:
+Eğer p < α (genelde 0.05) ⇒ H₀ reddedilir ⇒ Sonuç istatistiksel olarak anlamlıdır.
+
+Eğer p ≥ α ⇒ H₀ reddedilemez ⇒ Sonuç anlamlı değildir.
+
+🔹 Kullanım Yerleri:
+T-testlerinde (iki grup ortalaması karşılaştırması)
+
+ANOVA (birden fazla grup ortalaması)
+
+Regresyon analizlerinde (bir değişkenin etkisinin anlamlılığı)
+
+Ki-kare testinde (kategorik veriler arasında ilişki)
+
+A/B testlerinde (web tasarım, reklam vs. karşılaştırmaları)
+
+🔸 Örnek:
+Bir yeni ilacın etkili olup olmadığını test ediyoruz.
+
+H₀: İlacın etkisi yok (yani grup ortalamaları aynı)
+
+H₁: İlacın etkisi var (ortalamalar farklı)
+
+Yapılan t-testinde p = 0.02 bulundu.
+
+Yorum: p = 0.02 < 0.05 ⇒ H₀ reddedilir ⇒ İlaç istatistiksel olarak anlamlı şekilde etkilidir.
+
+🔹 Notlar:
+p-değeri küçükse, H₀’ın doğru olma ihtimali zayıftır.
+
+p-değeri bir olasılık değildir! Yani "H₀ doğrudur" demek değildir.
+
+p ≠ etkiliğin büyüklüğü (effect size) → sadece anlamlılık gösterir.
+
+Yanlış yorum çok yaygındır: "p-değeri %2, o zaman %98 ihtimalle alternatif hipotez doğrudur" demek yanlıştır!
+

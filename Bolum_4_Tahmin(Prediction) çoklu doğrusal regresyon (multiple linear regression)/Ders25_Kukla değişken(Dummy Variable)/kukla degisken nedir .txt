@@ -1,0 +1,36 @@
+Dummy variable (kukla değişken), kategori (nitel) değişkenleri sayısal modellere (örneğin regresyon) dahil edebilmek için kullanılan 0 ve 1 değerleri alan yapay değişkenlerdir.
+
+🔹 Kısaca Tanım:
+Dummy variable, bir kategorik değişkenin her bir sınıfını temsil etmek için kullanılan, yalnızca 0 veya 1 değerini alan değişkendir.
+
+🔸 Örnek:
+Cinsiyet değişkenini düşünelim:
+
+Kişi	Cinsiyet
+1	Erkek
+2	Kadın
+
+
+Bu değişkeni modele katmak için dummy değişken oluştururuz:
+
+Kişi	Kadın (Dummy)
+1	0
+2	1
+
+Yani burada:
+
+Kadın = 1,
+
+Erkek = 0 olarak kodlanmıştır.
+
+cinsiyet kolonunu silip yerine kadın ya da erkek kolonu eklenmelidir. Eklenen kolonda erkek ve kadını aynı anda içermemelidir, biz burada kadın olma durumunu kolona aktardık.
+Bu yöntem bir kolonda diğer kolon elde edilebilecekse kullanılır 
+diyelim ki illeri içerecek bir tabloda bu yöntemi kullanamayız. Çünkü bir ilden diğerini elde edemeyiz 
+burada erkek ve kadın olma birbirinin tersi ve birinin değeri biliniyorsa diğeri bulunabilir.
+
+🔹 Neden kullanılır?
+Regresyon gibi sadece sayısal verilerle çalışan modeller, metin formatındaki kategorileri anlayamaz.
+
+Dummy değişkenler bu problemi çözer.
+
+kolonu sayısal değere çevirmek için kullanılır.
