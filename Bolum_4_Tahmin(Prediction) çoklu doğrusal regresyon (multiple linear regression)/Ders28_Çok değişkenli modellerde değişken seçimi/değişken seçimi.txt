@@ -1,0 +1,52 @@
+Kullanılabilecek Yaklaşımlar :
+
+    *Bütün Değişkenleri Dahil Etmek 
+        *Geriye doğru eleme Backwaed elimination
+        *İleri seçim Forward elimination                 ADIM ADIM KARŞILAŞTIRMA YÖNTEMLERİ Stepwise
+        *İki yönlü eleme Bidirectional elimination 
+    *Skor Karşılaştırması
+
+
+1 Bütün değikenleri dahil etmek :
+
+    şayet değişken seçimi selection yapıldıysa ve değişkenlerden eminsek
+    zorunluluk varsa örn. bankadaki kredi skorları için geliştirilen modelin başarısının ölçülmesi 
+    leşif için diğer 4 yöntemi kullanmadan önce bu yöntem ile bir ön fikir elde etmek için kullanılabilir
+
+
+
+2 Geriye doğru eleme Backward Elimination:
+    1 significance Level LS seçilir genellikle 0.05
+    2 bütün değişkenler kullanılarak bir model inşa edilir 
+    3 en YÜKSEK p-value değerine sahip olan değişken ele alınır şayet P>SL ise 4. adıma geçilir değilse son adıma 6.adıma geçilir 
+    4 bu aşamada 3.adımda seçilen ve en yüksek p değerine sahip değişkene sistemden kaldırılır 
+    5 makine öğrenmesi güncellenir ve 3. adıma geri dönülür 
+    6 makine öğrenmesi sonlandırılır 
+
+
+
+3 İleri doğru eleme Forward Elimination:
+    1 significance Level LS seçilir genellikle 0.05
+    2 bütün değişkenler kullanılarak bir model inşa edilir 
+    3 en DÜŞÜK p-value değerine sahip olan değişken ele alınır 
+    4 bu aşamada 3.adımda seçilen değişken sabit tutularak yeni bir değişken daha seçilir ve sisteme eklenir 
+    5 makine öğrenmesi güncellenir ve 3. adıma geri dönülür şayet endüşük p değere sahip değişken için p><sl şartı sağlanıyorsa 3. adıma dönülür sağlanmıyorsa biter 6.adıma geçilir
+    6 makine öğrenmesi sonlandırılır 
+
+
+
+4 Çift Yönlü eleme Bidirectional Elimination:
+    1 significance Level LS seçilir genellikle 0.05
+    2 bütün değişkenler kullanılarak bir model inşa edilir 
+    3 en DÜŞÜK p-value değerine sahip olan değişken ele alınır  
+    4 bu aşamada 3.adımda seçilen değişken sabit tutularak yeni bir değişken daha seçilir ve sisteme eklenir
+    5 makine öğrenmesi güncellenir ve 3. adıma geri dönülür  şayet en düşük p değere sahip değişken isin p<SL şartı sağlanıyorsa 3. adıma dönülür Sağlanmıyorsabiter 6.adıma gidilr
+    6 makine öğrenmesi sonlandırılır 
+
+
+
+5 Skor Karşılaştırması:
+    1 başarı kriteri belirlenir 
+    2 tüm olası regresyon modelleri inşa edilir iki eçim olur 
+    3 başta belirtilen kriteri en iy i sağlayan yöntem seçilir 
+    4 makine öğrenmesi sonlandırıır 
