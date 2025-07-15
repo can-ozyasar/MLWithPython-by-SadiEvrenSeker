@@ -82,8 +82,38 @@ from sklearn.model_selection import train_test_split
 x_train, x_test,y_train,y_test = train_test_split(s,sonuc3,test_size=0.33, random_state=0)
 
 
+from sklearn.linear_model import LinearRegression
+regrression = LinearRegression()
+regrression.fit(x_train,y_train)
+
+y_pred=regrression.predict(x_test)
+print(y_pred)
 
 
+#boy kolonunu seçerek tahmin ettirelim 
+#boy kolonu seçme 
+# s2 yi boy kolonu boy kolonu sağı ve solu olarak 3 e böldük 
+
+boy=s2.iloc[:,3:4].values
+print(boy)
+
+sol=s2.iloc[:,:3].values
+print(sol)
+sag=s2.iloc[:,4:].values
+print(sag)
+
+#aradan boy kolonu çıkmış s2 verisi oluşturduk 
+# öce ayırdık sonra birleşitrdik
+veri=pd.concat([sol,sag], axis=1)
+
+x_train, x_test,y_train,y_test = train_test_split(veri,boy,test_size=0.3,random_state=0)
+
+# model oluşturalım
+
+regrression2 = LinearRegression()
+regrression2.fit(x_train,y_train)    
+y_pred2=regrression2.predict(x_test)
+print(y_pred2)
 
 
 
