@@ -2,11 +2,23 @@
 
 Sadi Evren Şeker içerikleriyle makine öğrenmesi ve Python pratiği için ayrılmış repo.
 
-## Öne Çıkanlar
+## Bu Repo Ne İçin Var?
+Makine öğrenmesi eğitim içeriklerini takip etmek ve Python ile uygulama pratiği yapmak için oluşturuldu.
+
+Bu README'nin amacı; repoya ilk kez gelen birinin projenin neden açıldığını, içinde ne bulunduğunu ve nereden başlaması gerektiğini hızlıca anlamasını sağlamaktır.
+
+## İçerik ve Kapsam
+Bu repoda öne çıkan içerikler şunlardır:
 - Eğitim takibi amaçlı arşiv
 - Makine öğrenmesi konularına giriş
 - Konu notları ve örneklerle genişletilebilir yapı
-- Kullanılan ana teknolojiler: Python
+- Repo amacını ve sonraki geliştirme adımlarını açıklayan başlangıç dokümantasyonu
+
+## Kimler İçin Faydalı?
+Proje fikrini, dosya yapısını ve geliştirme yönünü hızlıca anlamak isteyenler için hazırlanmıştır.
+
+## Kullanılan Teknolojiler
+- Python
 
 ## Proje Yapısı
 - `Bolum_4_Tahmin(Prediction) çoklu doğrusal regresyon (multiple linear regression)` - 19 dosya
